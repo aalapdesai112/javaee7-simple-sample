@@ -35,17 +35,11 @@
             <name>Internal Releases</name>
             <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
-        <repository>
-            <id>releases</id>
-            <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
-        </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
-        
     </distributionManagement>
     <build>
     	<finalName>javaee7-simple-sample</finalName>
